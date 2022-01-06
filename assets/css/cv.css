@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@400;600;700&family=Montserrat:wght@300&family=Roboto:ital@0;1&family=Twinkle+Star&display=swap');
+
+
+:root {
+    --fuente-titulos: 'Cormorant Unicase', serif;
+    --fuente-subtitulos:'Montserrat', sans-serif;
+    --fuente-texto-plano:'Twinkle Star', cursive;
+
+    --color-azul: #28ADCA ;
+    --color-marino: #2D5898;
+    --color-blanco: #FFFFFF;
+    --color-rojo: #FF0000;
+
+}
+
+/* *= cambiar toda la pagina */
+* {
+    margin: 0;
+}
+.header {
+    background-color: var(--color-azul);
+    height: 94px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+}
+
+body {
+    padding-top: 60px;
+    background-color: var(--color-marino);
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin-right: 60px;
+    line-height: 70px;
+    
+}
+.logo {
+    width: 112px;
+height: 110px;
+left: 9px;
+top: 0px;
+position: fixed;
+}
+.item-nav {
+    padding-left: 50px;
+    color: var(--color-blanco);
+    text-decoration: none;
+    font-size: 35px;
+   
+  
+}
+.contenido {
+    margin: 0 auto;
+}
+
+.alexis {
+    width: 608px;
+height: 638px;
+left: 753px;
+top: 212px;
+border-radius: 102px;
+position: absolute;
+
+}
+
+
+
+span {
+    color: var(--color-rojo);
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.nombre {
+width: 683px;
+height: 57px;
+left: 70px;
+top: 318px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: 900;
+font-size: 60px;
+line-height: 70px;
+text-align: justify;
+color: var(--color-blanco);
+position: absolute;
+
+}
+.carrera {
+  
+    width: 760px;
+    height: 146px;
+    left: 121px;
+    top: 484px;
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: justify;
+    color: var(--color-blanco);
+    position: absolute;
+    
+}
+.in {
+   Width: 160px;
+   Height: 132px;
+   top:642;
+   left: 150px; 
+
+   left: 10.42%;
+   right: 78.44%;
+   top: 86%;
+  bottom: 24.49%;
+  position: absolute;
+  
+
+}
+
+.git {
+width: 160px;
+height: 132px;
+top: 630px;
+left: 387px;
+    left: 26.88%;
+    right: 59.93%;
+    top: 86%;
+bottom: 20.66%;
+position: absolute;
+
+
+}
+/*-------------------------ACERCA DE MI--------------------------- */
+.acercademi {
+    position: absolute;
+width: 564px;
+height: 673px;
+left: 9px;
+top: 209px;
+
+}
+.titulo {
+    position: fixed;
+width: 444px;
+height: 65px;
+left: 940px;
+top: 176px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: 900;
+font-size: 70px;
+line-height: 82px;
+text-align: justify;
+color: var(--color-blanco);
+
+}
+.descripcion {
+position: absolute;
+width: 752px;
+height: 517px;
+left: 627px;
+top: 313px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 47px;
+text-align: justify;
+color: var(--color-blanco);
+background-color: #378097;
+}
+/*-------------------------EXPERIENCIA--------------------------- */
+.tituloexp {
+    position: absolute;
+width: 444px;
+height: 65px;
+left: 80px;
+top: 110px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: 900;
+font-size: 70px;
+line-height: 82px;
+text-align: justify;
+color: var(--color-blanco);
+
+}
+
+.fecha1{
+    position: absolute;
+    width: 149px;
+    height: 69px;
+    left: 65px;
+    top: 289px;
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: justify;
+    color: var(--color-blanco);
+}
+.fecha2 {
+    position: absolute;
+width: 136px;
+height: 69px;
+left: 71px;
+top: 692px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: justify;
+color: var(--color-blanco);
+}
+.institucion1 {
+    position: absolute;
+    width: 714px;
+    height: 232px;
+    left: 265px;
+    top: 237px;
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: justify;
+    color: var(--color-blanco);
+}
+.institucion2 {
+    position: absolute;
+width: 730px;
+height: 145px;
+left: 264px;
+top: 669px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: 900;
+font-size: 25px;
+line-height: 29px;
+text-align: justify;
+color: var(--color-blanco);
+
+}
+
+.servicio {
+    position: absolute;
+    width: 718px;
+    height: 235px;
+    left: 265px;
+    top: 270px;
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: justify;
+    color: var(--color-blanco);
+}
+.becario {
+    position: absolute;
+    width: 730px;
+    height: 145px;
+    left: 265px;
+    top: 700px;
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: justify;
+    color: var(--color-blanco);
+}
+
+.logoexp {
+    position: absolute;
+width: 1274px;
+height: 733px;
+left: 483px;
+top: 254px;
+}
+/*-------------------------EDUCACIÓN--------------------------- */
+.tituloedu {
+    position: fixed;
+    width: 810px;
+    height: 65px;
+    left: 299px;
+    top: 100px;
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 82px;
+    text-align: justify;
+    color: var(--color-blanco);
+}
+.logoedu {
+    position: absolute;
+width: 529px;
+height: 678px;
+left: -5px;
+top: 346px;
+}
+.fecha3{
+    position: absolute;
+    width: 133px;
+    height: 46px;
+    left: 493px;
+    top: 281px;
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: justify;
+    color: var(--color-blanco);
+}
+.ingmec {
+    position: absolute;
+    width: 521px;
+    height: 140px;
+    left: 659px;
+    top: 299px;
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: justify;
+    color: var(--color-blanco);
+}
+.esime {
+    position: absolute;
+    width: 521px;
+    height: 140px;
+    left: 659px;
+    top: 343px;
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: justify;
+    color: var(--color-blanco);
+}
+.logoesime {
+    position: absolute;
+width: 224px;
+height: 183px;
+left: 1199px;
+top: 279px;
+}
+.curso {
+    position: absolute;
+    width: 581px;
+    height: 70px;
+    left: 576px;
+    top: 647px;
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: justify;
+    color: var(--color-blanco);
+}
+.lean {
+    position: absolute;
+width: 581px;
+height: 70px;
+left: 576px;
+top: 685px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-align: justify;
+color: var(--color-blanco);
+}
+.pdf{
+    position: absolute;
+width: 151px;
+height: 170px;
+left: 1182px;
+top: 581px;
+
+}
+.fecha4 {
+    
+position: absolute;
+width: 133px;
+height: 46px;
+left: 571px;
+top: 893px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: justify;
+color: var(--color-blanco);
+}
+.bootcamp {
+    position: absolute;
+width: 714px;
+height: 70px;
+left: 787px;
+top: 892px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: 900;
+font-size: 30px;
+line-height: 35px;
+text-align: justify;
+color: var(--color-blanco);
+}
+.generation {
+    position: absolute;
+width: 714px;
+height: 70px;
+left: 787px;
+top: 925px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-align: justify;
+color: var(--color-blanco);
+
+}
+
+/*-------------------------HABILIDADES--------------------------- */
+
+
+
+.logoautocad {
+Width: 210px;
+Height: 153px;
+Top: 329px;
+Left: 876px;
+
+    left: 57.83%;
+    right: 26.24%;
+    top: 32.22%;
+    bottom: 70.16%;
+    position: fixed;
+    background-color: white;
+}
+.logosolid {
+    position: fixed;
+    width: 501px;
+    height: 76px;
+    left: 900px;
+    top: 150px;
+    background-color: white;
+    
+}
+.logosql {
+    position: fixed;
+    width: 231px;
+    height: 163px;
+    left: 1097px;
+    top: 530px;
+    background-color: white;
+}
+
+.logovsc {
+    position: fixed;
+    width: 183px;
+    height: 150px;
+    left: 877px;
+    top: 410px;
+    background-color: white;
+}
+.logohcj {
+    position: fixed;
+    width: 306px;
+    height: 282px;
+    left: 1096px;
+    top: 232px;
+    background-color: white;
+}
+.titulohabtec {
+
+    position: absolute;
+    width: 705px;
+    height: 65px;
+    left: 34px;
+    top: 167px;
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 82px;
+    text-align: justify;
+    color: var(--color-blanco);
+}
+
+.titulohabcom {
+    position: absolute;
+    width: 557px;
+    height: 164px;
+    left: 34px;
+    top: 675px;
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 82px;
+    text-align: justify;
+    color: var(--color-blanco);
+}
+
+.habilidades1 {
+    position: absolute;
+    width: 1071px;
+    height: 235px;
+    left: 25px;
+    top: 295px;
+    
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: justify;
+    color: var(--color-blanco);
+}
+
+
+
+.habilidades2 {
+    position: absolute;
+width: 634px;
+height: 423px;
+left: 25px;
+top: 882px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 40px;
+line-height: 47px;
+text-align: justify;
+color: var(--color-blanco);
+
+
+}
+.logocom {
+
+position: absolute;
+width: 718px;
+height: 623px;
+left: 609px;
+top: 862px;
+
+}
+/* -----------------Contacto---------------*/
+.titulocontacto {
+    position: fixed;
+width: 291px;
+height: 67px;
+left: 60px;
+top: 160px;
+
+font-family: Roboto;
+font-style: italic;
+font-weight: 900;
+font-size: 70px;
+line-height: 82px;
+text-align: justify;
+color: var(--color-blanco);
+}
+
+.tel {
+    position: absolute;
+left: 8.96%;
+right: 66.88%;
+top: 46.09%;
+bottom: 50%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+color: var(--color-blanco);
+}
+
+.logotel {
+Width: 85px;
+Height: 63px;
+Top: 437px;
+Left: 110px;
+    position: absolute;
+    left: 4.43%;
+    right: 90%;
+    top: 45.7%;
+    bottom: 48.44%;
+}
+
+.email {
+position: absolute;
+left: 6.39%;
+right: 42.08%;
+top: 60%;
+bottom: 36.91%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+color: var(--color-blanco);
+}
+
+.logoemail {
+Width: 85px;
+Height: 63px;
+Top: 437px;
+Left: 110px;
+position: absolute;
+left: 4.44%;
+right: 90.56%;
+top: 58.98%;
+bottom: 36.91%;
+
+}
+.direccion {
+    position: absolute;
+left: 11.94%;
+right: 44.1%;
+top: 72.75%;
+bottom: 20.61%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 47px;
+color: var(--color-blanco);
+
+}
+
+.logodireccion {
+Width: 85px;
+Height: 63px;
+Top: 437px;
+Left: 110px;
+position: absolute;
+left: 4.03%;
+right: 91%;
+top: 71.48%;
+bottom: 20.7%;
+
+}
+
+.tlazala {
+    position: absolute;
+width: 504px;
+height: 585px;
+left: 834px;
+top: 262px;
+}
+
